@@ -1,0 +1,23 @@
+[project]
+name = "document-qa-chatbot"
+version = "0.1.0"
+description = "Document Q&A Chatbot"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "faiss-cpu>=1.14.3",
+    "langchain>=1.3.13",
+    "langchain-community>=0.4.2",
+    "langchain-groq>=1.1.3",
+    "langchain-huggingface>=1.2.2",
+    "langchain-text-splitters>=1.1.2",
+    "pymupdf>=1.28.0",
+    "python-dotenv>=1.2.2",
+    "sentence-transformers>=5.6.0",
+    "streamlit>=1.59.2",
+    "torch>=2.13.0",
+    "torchvision>=0.28.0",
+]
+
+[dependency-groups]
+dev = []
